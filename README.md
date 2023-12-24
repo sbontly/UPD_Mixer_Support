@@ -32,8 +32,8 @@
 
  - This file acts as a virtual midi controller that mimics the Native Instruments Tractor Kontrol F1
 
- - It will allow the user to extend the capabiliteis of the mixer to its true potential
+ - It will allow the user to extend the capabilities of the mixer to its true potential
 
- - In the future this asset will become obsolete, since the idea is to prepare the mixer to recieve any MIDI device to control the main features
+ - In the future this asset will become obsolete, since the idea is to prepare the mixer to recieve any MIDI device to control the main features, as well busking midi values
 
 
