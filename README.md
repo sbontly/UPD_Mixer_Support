@@ -32,7 +32,7 @@ TouchOSC:
 
 - Custom UI to work directly with Audio.tox
 - This communicates across a network via OSC
-
+- IN DEVELOPMENT: Page 2 provides a remote connection for overall use away from the machine running the mixer
 -------------------------------------------------------------------------
 
 MIDI:
