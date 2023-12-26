@@ -28,12 +28,16 @@
 
  ------------------------------------------------------------------------
 
- F1MidiEmulator.tox: (STILL TO BE UPLOADED)
+TouchOSC:
 
- - This file acts as a virtual midi controller that mimics the Native Instruments Tractor Kontrol F1
+- Custom UI to work directly with Audio.tox
+- This communicates across a network via OSC
 
- - It will allow the user to extend the capabilities of the mixer to its true potential
+-------------------------------------------------------------------------
 
- - In the future this asset will become obsolete, since the idea is to prepare the mixer to recieve any MIDI device to control the main features, as well busking midi values
+MIDI:
+
+- Native Instruments Tractor Kontrol F1 controller mapping configuration
+- This connect directly into the UP Deko Mixer, enabling fast GUI navigation and the custom MIDI mapping experience
 
 
