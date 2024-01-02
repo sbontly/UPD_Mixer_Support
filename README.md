@@ -1,4 +1,5 @@
 # UPD_Mixer_Support
+
  Supporting Files for the UP Deko Mixer
 
  -------------------------------------------------------------------------
@@ -39,5 +40,17 @@ MIDI:
 
 - Native Instruments Tractor Kontrol F1 controller mapping configuration
 - This connect directly into the UP Deko Mixer, enabling fast GUI navigation and the custom MIDI mapping experience
+
+---------------------------------------------------------------------------
+
+Point Clouds:
+
+- pointCloudBuilder - a simple builder file for custom point clouds
+   - Directory: File path where you want to save the files
+   - Index: Keeping an index to order the files for use in the mixer, directly relates to chosen point cloud file
+   - File Name: The name of the point cloud
+   - Extension: File type, it is preffered to use .exr until a better understanding of optimization is known
+   - Save: Once all the parameters are set above, and the 3D model has been setup inside the network, press this button to create a folder in directory with all needed assets
+
 
 
