@@ -52,5 +52,36 @@ Point Clouds:
    - Extension: File type, it is preffered to use .exr until a better understanding of optimization is known
    - Save: Once all the parameters are set above, and the 3D model has been setup inside the network, press this button to create a folder in directory with all needed assets
 
+----------------------------------------------------------------------------
+
+Camera:
+
+- camChanger V1 - camera preset system, save a recall preset positions, FOV and aperture
+   - Load Next Cam: Triggers Preset over the blend time (seconds)
+   - Blend Time: in seconds, time to get to next camera
+   - Preset: menu of saved data for cameras
+   - Name: Name of preset to save (Warning! will override last saved data)
+   - Save: Save Current view with name as view preset
+   - Open Presets: Opens network of presets, this is how you delete presets
+
+   Notes:
+      - Must use "camChanger/camOut" in your renderTOP camera Op path
+      - The workflow - creating camera presets: 
+         - Use ONLY op('cv1') to setup camera. Tumble around the viewport to get the desired position
+         - Use the setMeCHOP to set both FOV and aperture on the camera
+         - name the preset
+         - save the preset
+
+   Errors:
+      - script is buggy when blend time is set to 0, will be fixed in next update
+      - cameraviewport sometimes doesnt respond. if this happens:
+         - delete op('cv1')
+         - drop another cameraviewport from the palette
+         - rename to cv1
+         - under the Camera page
+            - Panel COMP = ./renderview
+            - Render Top = ../render1
+         - reconnect the FOV and aperture to the setMe CHOP parameters (only for quick access)
+         - if it immediately does not reconnect, on the parent COMP, select Load Next Cam and try to tumble again
 
 
