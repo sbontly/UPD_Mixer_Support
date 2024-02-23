@@ -73,8 +73,10 @@ Camera:
          - save the preset
 
    Errors:
-      - script is buggy when blend time is set to 0, will be fixed in next update
-      - cameraviewport sometimes doesnt respond. if this happens:
+      - cameraviewport sometimes doesnt respond when building. if this happens:
+         - FIRST: select load next camera and try to tumble again
+         - SECOND: try op('cv2')
+         - LAST: 
          - delete op('cv1')
          - drop another cameraviewport from the palette
          - rename to cv1
