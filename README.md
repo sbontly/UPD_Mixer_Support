@@ -86,4 +86,15 @@ Camera:
          - reconnect the FOV and aperture to the setMe CHOP parameters (only for quick access)
          - if it immediately does not reconnect, on the parent COMP, select Load Next Cam and try to tumble again
 
+----------------------------------------------------------------------------------
+
+Helpers:
+
+- menuUpdater - easy table to menu integration, for quickly updating dynamic lists onto your custom parameters. Simply place inside top level of tox that holds your custom paramter menu, output is integers
+   - Asset List - Table conatining a list of names
+   - Start Index - For removing table 1st row
+   - Par Name - The custom menu parameter variable name to write to
+   - Update Menu - runs the renaming script
+
+
 
